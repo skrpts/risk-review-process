@@ -1,0 +1,39 @@
+# --- Identity ---
+name: "risk-review-process"
+display_name: "Risk Review Process"
+description: "Identifies risks, scores them, and produces a register update"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/risk-review-process"
+
+# --- Discovery (Hub) ---
+category: "project-manager"
+tags:
+  - "risk-management"
+  - "project-management"
+  - "assessment"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 2
+  prompts: 3
+  workflows: 1
+  services: 0
+  sources: 1
+  documents: 0
+  assets: 1
+  total: 8
