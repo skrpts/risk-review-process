@@ -5,7 +5,7 @@ title: Risk Assessment
 description: "Identifies, categorises, and scores project risks"
 tags: [Production]
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
   - target: raid-log-template
     type: references

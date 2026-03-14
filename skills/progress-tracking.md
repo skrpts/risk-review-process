@@ -5,7 +5,7 @@ title: Progress Tracking
 description: "Synthesises velocity, burndown, and milestone data into actionable insights"
 tags: [Production]
 connections:
-  - target: openai-gpt4
+  - target: llm-service
     type: runs_on
 ---
 

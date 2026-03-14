@@ -34,3 +34,46 @@ Invoke the **risk-register-entry** prompt to format each scored risk into a form
 **Input:** Risk register entries and current milestone data
 Invoke the **milestone-tracker** prompt to assess the impact of identified risks on upcoming milestones and forecast completion.
 **Output:** Traffic-light milestone status report with risk-adjusted projections
+
+## Inputs
+
+| Name | Required | Description | Example |
+|------|----------|-------------|---------|
+| `{{input.project_scope}}` | Yes | Project scope | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.timeline}}` | Yes | timeline | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.team_composition}}` | Yes | team composition | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.external_dependencies}}` | No | external dependencies | `Paste the relevant brief, notes, source material, or dataset here.` |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| Scored risk list | Scored risk list with categories and initial mitigation suggestions |
+| Formatted risk register entries ready for project documentation | Formatted risk register entries ready for project documentation |
+| Traffic-light milestone status report | Traffic-light milestone status report with risk-adjusted projections |
+
+## Setup
+
+Before running this workflow:
+
+1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
+2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
+
+## Provider Notes
+
+- Most stages work with any capable model; stronger models usually improve synthesis, judgement, and writing quality.
+- Extraction, classification, and formatting steps generally run well on smaller or faster models.
+- Because there are no vendor-specific integrations here, provider choice is mostly a trade-off between speed, quality, and cost.
+
+## Example Input
+
+To test this workflow immediately after import:
+
+```
+Project Scope: "Paste the relevant brief, notes, source material, or dataset here."
+Timeline: "Paste the relevant brief, notes, source material, or dataset here."
+Team Composition: "Paste the relevant brief, notes, source material, or dataset here."
+External Dependencies: "Paste the relevant brief, notes, source material, or dataset here."
+```
+
