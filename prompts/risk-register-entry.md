@@ -7,7 +7,7 @@ tags: [Production]
 connections: []
 ---
 
-Create a formal risk register entry for the following concern. Include: risk ID, title, description, category, probability (1-5), impact (1-5), risk score, owner, mitigation actions, contingency plan, and review date.
+Create a formal risk register entry for each risk identified below. Include: risk ID, title, description, category, probability (1-5), impact (1-5), risk score, owner, mitigation actions, contingency plan, and review date.
 
 ## Risk Description
-{{risk_description}}
+[The scored risk list generated in Stage 1]
