@@ -2,7 +2,7 @@
 name: "risk-review-process"
 display_name: "Risk Review Process"
 description: "Identifies risks, scores them, and produces a register update"
-version: "1.2.0"
+version: "1.3.0"
 engine: ">=1.0.0"
 
 # --- Attribution ---
