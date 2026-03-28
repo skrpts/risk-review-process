@@ -1,4 +1,5 @@
 # --- Identity ---
+id: "b054ffa8-8290-4533-ba77-332cf0aed046"
 name: "risk-review-process"
 display_name: "Risk Review Process"
 description: "Identifies risks, scores them, and produces a register update"
