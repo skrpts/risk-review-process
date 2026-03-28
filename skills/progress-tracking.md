@@ -2,7 +2,7 @@
 type: skill
 id: progress-tracking
 title: Progress Tracking
-description: "Synthesises velocity, burndown, and milestone data into actionable insights"
+description: "Synthesises velocity, burndown, and milestone data"
 tags: [Production]
 connections:
   - target: llm-service
@@ -10,15 +10,19 @@ connections:
 ---
 
 ## Capability
-Analyses sprint metrics and project progress to surface trends, bottlenecks, and forecast completion dates.
+
+Aggregates and analyses project metrics including velocity trends, burndown rates, and milestone completion to provide a clear picture of project health.
 
 ## When to Use
-- Daily standups
+
+- Weekly status reporting
 - Sprint reviews
-- Forecasting delivery dates
+- Portfolio-level health checks
 
 ## Inputs
-Velocity data, burndown charts, milestone status, blocker list
+
+Sprint data, burndown metrics, milestone dates, team velocity history
 
 ## Outputs
-Progress summary with trends, risk flags, and projected completion
+
+Progress summary with trend analysis, health indicators, and variance explanations
