@@ -10,7 +10,8 @@ connections:
   - target: risk-register-entry
     type: uses
   - target: milestone-tracker
-    type: uses  - target: llm-service
+    type: uses
+  - target: llm-service
     type: runs_on
 
 metadata:
