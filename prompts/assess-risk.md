@@ -3,7 +3,7 @@ type: prompt
 id: assess-risk
 title: Assess Risk
 description: "Core prompt for identifying and scoring project risks"
-tags: [Production, analysis:risk, quality:standards]
+tags: [Production, Risk, Quality]
 connections:
   - target: risk-assessment
     type: derived_from

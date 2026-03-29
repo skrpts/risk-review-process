@@ -3,7 +3,7 @@ type: prompt
 id: risk-register-entry
 title: Risk Register Entry
 description: "Creates a structured risk register entry"
-tags: [Production, analysis:risk, quality:standards]
+tags: [Production, Risk, Quality]
 connections: []
 ---
 

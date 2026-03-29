@@ -3,7 +3,7 @@ type: workflow
 id: risk-review-process
 title: Risk Review Process
 description: "Identifies risks, scores them, and produces a register update"
-tags: [Production, analysis:risk, quality:standards]
+tags: [Production, Risk, Quality]
 connections:
   - target: risk-assessment
     type: uses
