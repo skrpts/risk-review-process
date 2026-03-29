@@ -3,7 +3,7 @@ type: source
 id: raid-log-template
 title: RAID Log Template
 description: "Template for Risks, Assumptions, Issues, Dependencies tracking"
-tags: [Production, Project Management]
+tags: [Production, analysis:risk, quality:standards]
 connections: []
 ---
 

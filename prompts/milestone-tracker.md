@@ -3,7 +3,7 @@ type: prompt
 id: milestone-tracker
 title: Milestone Tracker
 description: "Analyses milestone progress and forecasts completion"
-tags: [Production]
+tags: [Production, analysis:risk, communication:status]
 connections:
   - target: burndown-chart-template
     type: references
