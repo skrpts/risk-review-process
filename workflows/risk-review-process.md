@@ -14,16 +14,16 @@ connections:
   - target: llm-service
     type: runs_on
 
+  - target: progress-tracking
+  - target: assess-risk
+  - target: raid-log-template
+  - target: risk-heatmap-template
 metadata:
   estimated_duration: "5-15 minutes"
   trigger: manual
-  - target: progress-tracking
     type: uses
-  - target: assess-risk
     type: uses
-  - target: raid-log-template
     type: references
-  - target: risk-heatmap-template
     type: references
 ---
 
