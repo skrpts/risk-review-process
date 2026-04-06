@@ -7,10 +7,6 @@ tags: [Production, Risk, Quality]
 connections:
   - target: risk-assessment
     type: uses
-  - target: risk-register-entry
-    type: uses
-  - target: milestone-tracker
-    type: uses
   - target: llm-service
     type: runs_on
   - target: progress-tracking
