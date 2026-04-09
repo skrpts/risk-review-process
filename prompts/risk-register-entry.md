@@ -10,4 +10,4 @@ connections: []
 Create a formal risk register entry for each risk identified below. Include: risk ID, title, description, category, probability (1-5), impact (1-5), risk score, owner, mitigation actions, contingency plan, and review date.
 
 ## Risk Description
-{{steps.assess-risk.output}}
+{{steps.Risk Assessment.output}}

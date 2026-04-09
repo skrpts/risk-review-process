@@ -15,4 +15,4 @@ Analyse the following milestone data and produce a traffic-light status report. 
 {{input.timeline}}
 
 ## Risk Register Entries
-{{steps.risk-register-entry.output}}
+{{steps.Risk Register Entry.output}}
