@@ -4,6 +4,13 @@ id: milestone-tracker
 title: Milestone Tracker
 description: "Analyses milestone progress and forecasts completion"
 tags: [Production, Metrics, Risk]
+inputs:
+  timeline:
+    label: "Timeline"
+    description: "The project timeline"
+    example: "3 months — April to June 2026"
+    required: true
+    type: text
 connections:
   - target: burndown-chart-template
     type: references
