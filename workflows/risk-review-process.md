@@ -20,6 +20,12 @@ connections:
 metadata:
   estimated_duration: "5-15 minutes"
   trigger: manual
+execution:
+  - skill: "raid-log-template"
+  - skill: "risk-heatmap-template"
+    input_from: "raid-log-template"
+  - skill: "risk-assessment"
+    input_from: "risk-heatmap-template"
 ---
 
 ## Overview
