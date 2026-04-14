@@ -20,6 +20,11 @@ connections:
 metadata:
   estimated_duration: "5-15 minutes"
   trigger: manual
+output_step: "risk-heatmap-template"
+composite_steps:
+  - "risk-assessment"
+  - "raid-log-template"
+  - "risk-heatmap-template"
 execution:
   - skill: "risk-assessment"
     step_type: "synthesis"
