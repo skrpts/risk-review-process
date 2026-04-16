@@ -28,6 +28,8 @@ composite_steps:
 execution:
   - skill: "risk-assessment"
     step_type: "synthesis"
+    context:
+      initiative_context: ""
 ---
 
 ## Overview
