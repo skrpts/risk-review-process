@@ -7,6 +7,8 @@ tags: [Production, Risk, Quality]
 connections:
   - target: risk-assessment
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: progress-tracking
@@ -20,7 +22,7 @@ connections:
 metadata:
   estimated_duration: "5-15 minutes"
   trigger: manual
-output_step: "risk-heatmap-template"
+output_step: "language-polish"
 composite_steps:
   - "risk-assessment"
   - "raid-log-template"
@@ -30,6 +32,8 @@ execution:
     step_type: "synthesis"
     context:
       initiative_context: ""
+  - skill: "language-polish"
+    step_type: "content"
 ---
 
 ## Overview
@@ -92,4 +96,3 @@ Timeline: "Paste the relevant brief, notes, source material, or dataset here."
 Team Composition: "Paste the relevant brief, notes, source material, or dataset here."
 External Dependencies: "Paste the relevant brief, notes, source material, or dataset here."
 ```
-
