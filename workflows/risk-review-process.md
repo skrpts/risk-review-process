@@ -29,10 +29,12 @@ composite_steps:
   - "risk-heatmap-template"
 execution:
   - skill: "risk-assessment"
+    prompt: "assess-risk"
     step_type: "synthesis"
     context:
       initiative_context: ""
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
 ---
 
