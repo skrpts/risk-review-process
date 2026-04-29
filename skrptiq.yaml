@@ -31,10 +31,10 @@ requires:
 # --- Contents ---
 contents:
   skills: 3
-  prompts: 5
+  prompts: 4
   workflows: 1
   services: 1
   sources: 1
   documents: 0
   assets: 2
-  total: 13
+  total: 12
