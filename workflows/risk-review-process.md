@@ -32,13 +32,13 @@ execution:
     prompt: "assess-risk"
     step_type: "synthesis"
     context:
-      initiative_context: ""
+      initiative_context: "No additional initiative context"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
 ---
 
 ## Overview
