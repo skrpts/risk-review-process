@@ -3,7 +3,7 @@ id: "b054ffa8-8290-4533-ba77-332cf0aed046"
 name: "risk-review-process"
 display_name: "Risk Review Process"
 description: "Identifies risks, scores them, and produces a register update"
-version: "1.1.20"
+version: "1.1.22"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -17,9 +17,9 @@ repository: "https://github.com/skrpts/risk-review-process"
 # --- Discovery (Hub) ---
 category: "project-manager"
 tags:
-  - "risk-management"
-  - "project-management"
   - "assessment"
+  - "project-management"
+  - "risk-management"
 
 # --- Security & Access ---
 requires:
