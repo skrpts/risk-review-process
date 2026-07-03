@@ -31,11 +31,13 @@ execution:
   - skill: "risk-assessment"
     prompt: "assess-risk"
     step_type: "synthesis"
+    output: { name: "risk_assessment", type: "text" }
     context:
       initiative_context: "No additional initiative context"
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_review", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
