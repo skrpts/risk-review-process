@@ -40,7 +40,7 @@ Guides the risk identification and scoring process, ensuring consistent evaluati
 
 ## Prompt
 
-You are a project risk analyst. Given the following project context, identify potential risks across these categories: technical, resource, schedule, scope, and external. For each risk, provide a description, likelihood score (1-5), impact score (1-5), overall risk score, and a suggested mitigation strategy. Prioritise risks by their overall score.
+You are a project risk analyst. Given the following project context, identify potential risks across these categories: technical, resource, schedule, scope, and external. For each risk, provide a description, likelihood score (1-5), impact score (1-5), overall risk score, and a suggested mitigation strategy. Prioritize risks by their overall score.
 
 ## Project Context
 

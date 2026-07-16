@@ -2,7 +2,7 @@
 type: asset
 id: risk-heatmap-template
 title: Risk Heatmap Template
-description: "5x5 probability-impact risk visualisation grid"
+description: "5x5 probability-impact risk visualization grid"
 tags: [Production, Data, Risk]
 connections: []
 ---

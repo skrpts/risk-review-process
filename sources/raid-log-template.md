@@ -129,7 +129,7 @@ Every risk is scored on two dimensions: **Likelihood** (how probable) and **Impa
 | **ID** | Unique identifier (e.g. D-001) |
 | **Date raised** | When the dependency was identified |
 | **Description** | What the project depends on |
-| **Source** | The external team, system, or organisation providing the dependency |
+| **Source** | The external team, system, or organization providing the dependency |
 | **Required by** | The date by which the dependency must be fulfilled |
 | **Impact if missed** | Consequence of the dependency not being met on time |
 | **Owner** | Person responsible for tracking and chasing the dependency |
