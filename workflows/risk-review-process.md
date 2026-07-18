@@ -7,6 +7,8 @@ tags: [Production, Risk, Quality]
 connections:
   - target: risk-assessment
     type: uses
+  - target: risk-register-builder
+    type: uses
   - target: language-polish
     type: uses
   - target: llm-service
@@ -25,6 +27,7 @@ metadata:
 output_step: "language-polish"
 composite_steps:
   - "risk-assessment"
+  - "risk-register-builder"
   - "raid-log-template"
   - "risk-heatmap-template"
 execution:
@@ -34,6 +37,14 @@ execution:
     output: { name: "risk_assessment", type: "text" }
     context:
       initiative_context: "No additional initiative context"
+  - skill: "risk-register-builder"
+    prompt: "risk-register-entry"
+    step_type: "synthesis"
+    output: { name: "risk_register", type: "text" }
+    bindings:
+      risk_assessment:
+        from_step: "Risk Assessment"
+        field: output
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
@@ -41,6 +52,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Risk Register Entry"
+        field: output
 ---
 
 ## Overview
